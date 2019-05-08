@@ -1,0 +1,9 @@
+# general things to ignore
+build/
+target/
+__pycache__/
+*~
+
+# due to using tox and pytest
+.tox
+.cache
