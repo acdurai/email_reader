@@ -1,7 +1,7 @@
 """A setuptools based setup module.
 See:
 https://packaging.python.org/guides/distributing-packages-using-setuptools/
-https://github.com/acdurai/Email_reader
+https://github.com/acdurai/email_reader
 """
 
 # Always prefer setuptools over distutils
@@ -20,7 +20,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     
-    name='Email_reader',  # Required
+    name='email_reader',  # Required
 
    
     version='1.0.0',  # Required
@@ -38,7 +38,7 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url='https://github.com/pypa/sampleproject',  # Optional
+    url='https://github.com/acdurai/email_reader',  # Optional
 
     # This should be your name or the name of the organization which owns the
     # project.
@@ -99,9 +99,9 @@ setup(
     
 
     project_urls={  # Optional
-        'Bug Reports': 'https://github.com/acdurai/Email_reader/issues',
+        'Bug Reports': 'https://github.com/acdurai/email_reader/issues',
         'Funding': 'https://donate.pypi.org',
         'Say Thanks!': 'http://saythanks.io/to/example',
-        'Source': 'https://github.com/acdurai/Email_reader/',
+        'Source': 'https://github.com/acdurai/email_reader/',
     },
 )
