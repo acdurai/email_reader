@@ -1,5 +1,7 @@
 # general things to ignore
 build/
+Email_reader.egg-info/
+dist/
 target/
 __pycache__/
 *~
