@@ -16,7 +16,7 @@ language: python
 
  install: pip install tox
 
-# script: tox
+ script: tox
 
 notifications:
   email: false
