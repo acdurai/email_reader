@@ -1,0 +1,4 @@
+# Include the key file
+include email_reader/encryption_key.txt
+
+

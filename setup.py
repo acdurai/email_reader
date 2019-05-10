@@ -13,12 +13,14 @@ with open(path.join(here, 'HISTORY.rst'), encoding='utf-8') as history_file:
 
 setup(
     name='email_reader',  
-    version='1.0.2',  
+    version='1.0.5',  
     description='Sample email reader ',  
     long_description=readme + '\n\n' + history,
     author='Chelladurai',
     author_email='acdurai04@gmail.com',
     url='https://github.com/acdurai/email_reader',
+    # packages=['email_reader'],
+    packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     
     classifiers=[  # Optional
         'Development Status :: 3 - Alpha',
@@ -35,6 +37,7 @@ setup(
     ],
 
     install_requires=['cryptography'],
+    include_package_data=True,
 
    
 
