@@ -1,4 +1,4 @@
-from src.encrypt_decrypt import EncryptDecrypt
+from email_reader.encrypt_decrypt import EncryptDecrypt
 
 def test_encryption():
     ed = EncryptDecrypt()

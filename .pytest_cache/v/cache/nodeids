@@ -1,4 +1,3 @@
 [
-  "tests/test_encyptionanddecryption.py::test_encryption",
-  "tests/test_simple.py::test_encryption"
+  "tests/test_encyptionanddecryption.py::test_encryption"
 ]
