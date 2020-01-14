@@ -3,6 +3,7 @@ build/
 *.egg-info/
 dist/
 target/
+.pytest_cache/
 __pycache__/
 *~
 
