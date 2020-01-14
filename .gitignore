@@ -3,7 +3,7 @@ build/
 *.egg-info/
 dist/
 target/
-.pytest_cache/
+*.pytest_cache/
 __pycache__/
 *~
 
