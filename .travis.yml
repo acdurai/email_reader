@@ -11,4 +11,4 @@ install:
   - pip install cryptography
 # command to run tests
 script:
-  - pytest
+  - pytest tests\ -s -v
